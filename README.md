@@ -6,5 +6,3 @@ Cделать конфигурацию docker-compose любого Вашего 
 Для запуска выполнить команды:
 
 ```docker-compose up -d --build```
-
-```docker-compose run --rm backend sh -c "python manage.py migrate"```
