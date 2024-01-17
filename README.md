@@ -6,3 +6,14 @@ Cделать конфигурацию docker-compose любого Вашего 
 Выполнить команду: 
 
 ```docker-compose up -d --build```
+
+## Проверка работоспособности
+Выполнить команду: 
+
+```curl localhost:2345/health/```
+
+В ответ должно прийти 
+`{
+    "message": "Hello! I'm working!"
+}
+`
